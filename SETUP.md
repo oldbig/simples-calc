@@ -310,11 +310,11 @@ Você **não define** a main class diretamente no `build.gradle`. A declaração
 
 ```gradle
 android {
-    namespace 'com.example.simplescalc'
+    namespace 'com.oldbig.simplescalc'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.simplescalc"
+        applicationId "com.oldbig.simplescalc"
         minSdk 24
         targetSdk 34
         versionCode 1
@@ -355,7 +355,7 @@ Causas:
 <!-- ✅ Correto -->
 <activity android:name=".MainActivity" />
 <!-- ou -->
-<activity android:name="com.example.simplescalc.MainActivity" />
+<activity android:name="com.oldbig.simplescalc.MainActivity" />
 ```
 
 ### Resumo Rápido
@@ -364,8 +364,8 @@ Causas:
 |--------|-------------|----------|
 | Main Class | AndroidManifest.xml | `.MainActivity` |
 | Intent Filter | AndroidManifest.xml | `android:action=MAIN` |
-| Package Name | build.gradle | `com.example.simplescalc` |
-| Package Name | AndroidManifest.xml | `package="com.example.simplescalc"` |
+| Package Name | build.gradle | `com.oldbig.simplescalc` |
+| Package Name | AndroidManifest.xml | `package="com.oldbig.simplescalc"` |
 
 ---
 

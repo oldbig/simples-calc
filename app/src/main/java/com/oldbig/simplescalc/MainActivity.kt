@@ -1,4 +1,4 @@
-package com.example.simplescalc
+package com.oldbig.simplescalc
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

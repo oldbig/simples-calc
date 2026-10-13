@@ -33,7 +33,7 @@ simples-calc/
 │       └── main/
 │           ├── AndroidManifest.xml     # App manifest
 │           ├── java/
-│           │   └── com/example/simplescalc/
+│           │   └── com/oldbig/simplescalc/
 │           │       └── MainActivity.kt  # Main activity with calculator logic
 │           └── res/
 │               ├── layout/
@@ -86,7 +86,7 @@ simples-calc/
 4. **Calculate**: Tap the equals (=) button to see the result
 5. **Clear**: Tap the C button to reset and start a new calculation
 
-### Example Calculations
+### Oldbig Calculations
 
 - Simple Addition: `5 + 3 =` → `8`
 - Multiplication: `12 * 5 =` → `60`

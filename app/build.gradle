@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.simplescalc'
+    namespace 'com.oldbig.calc'
     compileSdk 34
 
     defaultConfig {
